@@ -9,8 +9,8 @@ class RouterHandler {
 
     setRoutes() {
         const routes = [
-            {path: '/', page: Page},
-            {path: '/new', page: Page},
+            {path: '/news', page: Page},
+            {path: '/newest', page: Page},
             {path: '/ask', page: Page},
             {path: '/show', page: Page},
         ]

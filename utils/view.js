@@ -1,3 +1,3 @@
-const view = document.getElementById('route-container')
+const view = document.getElementById('router-outlet')
 
 export default view
