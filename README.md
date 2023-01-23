@@ -6,9 +6,12 @@ This project is a clone of the popular social news website Hacker News and was b
 
 [The live version lives here](https://danielsafonyan.github.io/hackernews-clone/)
 
-It was built using **Vanilla JavaScript**, the **Unofficial Hacker News API** (https://node-hnapi.herokuapp.com) to retrieve data, and a simple and dependency-free **Router Navigo** (https://npmjs.com/package/navigo). 
+### Tools
+- Vanilla JavaScript
+- Unofficial Hacker News API** (https://node-hnapi.herokuapp.com)
+- Router Navigo, a simple, dependency-free JS router (https://npmjs.com/package/navigo). 
 
-## users can
+### Users can
 - View the latest, top, ask and show news stories
 - Recursively view all comments for each story
 - Add and remove stories from their favorites list
