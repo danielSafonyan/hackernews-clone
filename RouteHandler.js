@@ -1,4 +1,4 @@
-import Page from "./Pages/Page.js"
+import NavPage from "./Pages/NavPage.js"
 import StoryPage from "./Pages/StoryPage.js"
 import Favorites from "./Pages/Favorites.js"
 
@@ -11,10 +11,10 @@ class RouteHandler {
 
     setRoutes() {
         const routes = [
-            {path: '/', page: Page},
-            {path: '/new', page: Page},
-            {path: '/ask', page: Page},
-            {path: '/show', page: Page},
+            {path: '/', page: NavPage},
+            {path: '/new', page: NavPage},
+            {path: '/ask', page: NavPage},
+            {path: '/show', page: NavPage},
             {path: '/item', page: StoryPage},
             {path: '/favorites', page: Favorites},
         ]
