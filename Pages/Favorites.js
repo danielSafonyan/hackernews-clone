@@ -1,8 +1,7 @@
-import view from "./view.js"
-import baseUrl from "./baseUrl.js"
-import Story from './Story.js'
-import store from "./store.js";
-import checkFavorite from "./checkIsFavorite.js";
+import view from "../utils/view.js"
+import Story from '../components/Story.js'
+import store from "../store.js";
+import checkFavorite from "../utils/checkIsFavorite.js";
 
 export default function Favorites() {
     const { favorites } = store.getState()

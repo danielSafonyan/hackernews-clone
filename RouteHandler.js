@@ -1,6 +1,6 @@
-import Page from "./Page.js"
-import Item from "./Item.js"
-import Favorites from "./Favorites.js"
+import Page from "./Pages/Page.js"
+import StoryPage from "./Pages/StoryPage.js"
+import Favorites from "./Pages/Favorites.js"
 
 const router = new Navigo(null, true, '#')
 
@@ -15,7 +15,7 @@ class RouteHandler {
             {path: '/new', page: Page},
             {path: '/ask', page: Page},
             {path: '/show', page: Page},
-            {path: '/item', page: Item},
+            {path: '/item', page: StoryPage},
             {path: '/favorites', page: Favorites},
         ]
 

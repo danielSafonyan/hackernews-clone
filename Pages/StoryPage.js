@@ -1,7 +1,7 @@
-import view from "./view.js"
-import baseUrl from "./baseUrl.js"
-import Story from './Story.js'
-import Comments from './Comments.js'
+import view from "../utils/view.js"
+import baseUrl from "../utils/baseUrl.js"
+import Story from '../components/Story.js'
+import Comments from '../components/Comments.js'
 
 
 export default async function Item(path) {
