@@ -4,7 +4,7 @@ Welcome to the Hacker News Clone repository!
 
 This project is a clone of the popular social news website Hacker News and was built for educational purposes and to showcase my skills in building dynamic single-page web applications using Vanilla JavaScript. 
 
-[The live version lives here](https://danielsafonyan.github.io/hackernews-clone/)
+The live version lives here: (https://danielsafonyan.github.io/hackernews-clone/)
 
 ### Tools
 - Vanilla JavaScript
