@@ -14,7 +14,7 @@ export default function Favorites() {
         content = favorites.map((story, i) => Story(
         {
             ...story, 
-            index: i,
+            index: i + 1,
             isFavorite: true
         })).join('')
     } else {
