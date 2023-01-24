@@ -5,9 +5,8 @@ class App {
     constructor() {
         new RouteHandler()
         checkActiveLink()
+        window.onhashchange = checkActiveLink
     }
 }
 
 new App()
-
-window.onhashchange = checkActiveLink
