@@ -1,3 +1,3 @@
 export default function checkFavorite(favorites, story) {
-  return favorites.some(favorite => favorite.id === story.id); 
+  return !!favorites.find(favorite => favorite.id === story.id); 
 }
