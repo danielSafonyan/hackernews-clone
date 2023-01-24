@@ -6,7 +6,6 @@ import checkFavorite from "../utils/checkIsFavorite.js";
 export default function Favorites() {
     // Get the favorites state from the store
     const { favorites } = store.getState()
-    console.log(favorites)
     // Check if there are any favorites in state
     const haveFavorites = favorites.length > 0 
     let content
