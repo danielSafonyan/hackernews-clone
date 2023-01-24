@@ -18,7 +18,8 @@ export default async function Page(path) {
         })).join('')
 
     document.querySelectorAll('.favorite').forEach(el => el.addEventListener('click', async (event) => {
-        const story = JSON.parse(event.target.dataset.story)
+        const storyContainer = event.target.closest('.favorite')
+        const story = JSON.parse(storyContainer.dataset.story)
         const isFavorite = checkFavorite(store.getState().favorites, story)
         store.dispatch({
             type: `${isFavorite ? "REMOVE" : "ADD"}_FAVORITE`,
