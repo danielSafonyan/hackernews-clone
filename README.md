@@ -5,7 +5,7 @@ Welcome to the Hacker News Clone repository!
 This project is a clone of the popular social news website Hacker News and was built for educational purposes and to showcase my skills in building dynamic single-page web applications using Vanilla JavaScript. 
 
 ### Usage
-To use the app, simply use the link [[https://danielsafonyan.github.io/keep-notes/](https://danielsafonyan.github.io/hackernews-clone/)] or clone the repository, start your own server [using vs code extension Live Server: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer] and open index.html. You can then start creating, editing, and managing your notes.
+To use the app, simply use the link [[https://danielsafonyan.github.io/keep-notes/](https://danielsafonyan.github.io/hackernews-clone/)] or clone the repository, start your own server [using vs code extension Live Server: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer] and open index.html.
 
 ### Tools
 - Vanilla JavaScript
