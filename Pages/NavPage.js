@@ -4,9 +4,17 @@ import Story from '../components/Story.js'
 import store from "../store.js";
 import checkFavorite from "../utils/checkIsFavorite.js";
 
-export default async function Page(path) {
+export default async function NavPage(path) {
     const endPoint = getEndPoint(path)
-    const stories = await fetchPage(endPoint)
+    
+    let stories
+    try { 
+        view.textContent = 'Fetching data...'
+        stories = await fetchNavPage(endPoint)
+      } catch(error) {
+        view.innerHTML = `<div class="error">Error while fetching stories.</div>`;
+        return
+      } 
 
     const { favorites } = store.getState()
 
@@ -27,11 +35,11 @@ export default async function Page(path) {
                 favorite: story
             }
         })
-        await Page(path)
+        await NavPage(path)
     }))
 }
 
-async function fetchPage(endPoint) {
+async function fetchNavPage(endPoint) {
     const resp = await fetch(baseUrl + endPoint)
     const data = await resp.json()
     return data
